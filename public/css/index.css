@@ -1,0 +1,698 @@
+/* telas enormes */
+@media screen and (min-width: 1024px) {
+ 
+    body{
+        align-items: center;
+        border: 8;
+        display: flex;
+        margin: 0;
+        width: 1024px;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .top--position__container{
+        display: none;
+    }
+
+    .top--name{
+        display: none;
+    }
+
+    .top--position{
+        display: none;
+    }
+    
+    .flex-1{
+        align-items: stretch;
+        background-color: rgb(51, 83, 131);
+        display: flex;
+        flex-direction: column;
+        margin-left: calc(50vw - 512px);
+    }
+
+    .flex-2{
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        margin-right: calc(50vw - 512px);
+        min-width: 702px;
+    }
+
+    .left-session{
+        background-color: rgb(51, 83, 131);
+        padding: 32px;
+        text-align: center;
+        top: 0;
+    }
+    
+    .header--photo{
+        border-radius: 75px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .left--title{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+
+    .left--container{
+        align-items: center;
+        display: flex;
+    }
+
+    .left--icons{
+        height: 20px;
+        width: 20px;
+    }
+
+    .left--content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding-left: 8px;
+    }
+
+    #lknMail{
+        cursor: pointer;
+    }
+
+    #lknLinked{
+        cursor: pointer;
+    }
+
+    .left--skill-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .left--treina-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 11px;
+        font-weight: lighter;
+        padding: 4px;
+        padding-left: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .right-session{
+        background-color: rgb(250, 250, 250);
+        flex-direction: column;
+        padding: 48px;
+        text-align: center;
+        top: 0;
+    }
+
+    .right--name{
+        color:rgb(51, 83, 131);
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 32px;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .right--position{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: lighter;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content__container{
+        margin-top: 80px;
+        padding-left: 8px;
+    }
+
+    .right--content__espacer{
+        padding-top: 24px;
+    }
+
+    .right--title{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content{
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .right--position-title{
+        color: rgb(45, 45, 45);
+        font-family: Helvetica;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .right--position-placetime{
+        color: rgb(155, 155, 155);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+/*telas grandes */
+@media screen and (max-width: 1023px) {
+ 
+    body{
+        margin: 0;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .top--position__container{
+        display: none;
+    }
+
+    .top--name{
+        display: none;
+    }
+
+    .top--position{
+        display: none;
+    }
+    
+    .flex-1{
+        align-items: stretch;
+        background-color: rgb(51, 83, 131);
+        display: flex;
+    }
+
+    .flex-2{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .left-session{
+        background-color: rgb(51, 83, 131);
+        padding: 32px;
+        text-align: center;
+        top: 0;
+    }
+    
+    .header--photo{
+        border-radius: 75px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .left--title{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+
+    .left--container{
+        align-items: center;
+        display: flex;
+    }
+
+    .left--icons{
+        height: 20px;
+        width: 20px;
+    }
+
+    .left--content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding-left: 8px;
+    }
+
+    #lknMail{
+        cursor: pointer;
+    }
+
+    #lknLinked{
+        cursor: pointer;
+    }
+
+    .left--skill-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .left--treina-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 11px;
+        font-weight: lighter;
+        padding: 4px;
+        padding-left: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .right-session{
+        background-color: rgb(250, 250, 250);
+        flex-direction: column;
+        padding: 48px;
+        text-align: center;
+        top: 0;
+    }
+
+    .right--name{
+        color:rgb(51, 83, 131);
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 32px;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .right--position{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: lighter;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content__container{
+        margin-top: 80px;
+        padding-left: 8px;
+    }
+
+    .right--content__espacer{
+        padding-top: 24px;
+    }
+
+    .right--title{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content{
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .right--position-title{
+        color: rgb(45, 45, 45);
+        font-family: Helvetica;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .right--position-placetime{
+        color: rgb(155, 155, 155);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+/* telas menores */
+@media screen and (max-width: 480px) {
+ 
+    body{
+        margin: 0;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top--position__container{
+        background-color: rgb(250, 250, 250);
+        padding: 32px;
+    }
+
+    .top--name{
+        color:rgb(51, 83, 131);
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 8px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .top--position{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: lighter;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 0;
+    }
+    
+    .flex-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-2{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .left-session{
+        background-color: rgb(51, 83, 131);
+        padding: 32px;
+        text-align: center;
+        top: 0;
+    }
+    
+    .header--photo{
+        border-radius: 75px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .left--title{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+
+    .left--container{
+        align-items: center;
+        display: flex;
+    }
+
+    .left--icons{
+        height: 20px;
+        width: 20px;
+    }
+
+    .left--content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding-left: 8px;
+    }
+
+    .left--skill-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .left--treina-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 11px;
+        font-weight: lighter;
+        padding: 4px;
+        padding-left: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .right-session{
+        background-color: rgb(250, 250, 250);
+        flex-direction: column;
+        padding: 48px;
+        text-align: center;
+        top: 0;
+    }
+
+    .right--name{
+        display: none;
+    }
+
+    .right--position{
+        display: none;
+    }
+
+    .right--content__container{
+        margin-top: 80px;
+        padding-left: 8px;
+    }
+
+    .right--content__espacer{
+        padding-top: 24px;
+    }
+
+    .right--title{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content{
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .right--position-title{
+        color: rgb(45, 45, 45);
+        font-family: Helvetica;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .right--position-placetime{
+        color: rgb(155, 155, 155);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+@media print{
+ 
+    body{
+        margin: 0;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .top--position__container{
+        display: none;
+    }
+
+    .top--name{
+        display: none;
+    }
+
+    .top--position{
+        display: none;
+    }
+    
+    .flex-1{
+        align-items: stretch;
+        background-color: rgb(51, 83, 131);
+        display: flex;
+    }
+
+    .flex-2{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .left-session{
+        background-color: rgb(51, 83, 131);
+        padding: 32px;
+        text-align: center;
+        top: 0;
+    }
+    
+    .header--photo{
+        border-radius: 75px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .left--title{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+
+    .left--container{
+        align-items: center;
+        display: flex;
+    }
+
+    .left--icons{
+        height: 20px;
+        width: 20px;
+    }
+
+    .left--content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding-left: 8px;
+    }
+
+    .left--skill-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .left--treina-content{
+        color: rgb(250, 250, 250);
+        font-family: Helvetica;
+        font-size: 11px;
+        font-weight: lighter;
+        padding: 4px;
+        padding-left: 8px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .right-session{
+        background-color: rgb(250, 250, 250);
+        flex-direction: column;
+        padding: 48px;
+        text-align: center;
+        top: 0;
+    }
+
+    .right--name{
+        color:rgb(51, 83, 131);
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 32px;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .right--position{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: lighter;
+        padding-left: 8px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content__container{
+        margin-top: 80px;
+        padding-left: 8px;
+    }
+
+    .right--content__espacer{
+        padding-top: 24px;
+    }
+
+    .right--title{
+        color: rgb(131, 194, 219);
+        font-family: Helvetica;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .right--content{
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .right--position-title{
+        color: rgb(45, 45, 45);
+        font-family: Helvetica;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .right--position-placetime{
+        color: rgb(155, 155, 155);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 0;
+    }
+}
