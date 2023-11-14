@@ -5,6 +5,7 @@
         align-items: center;
         border: 8;
         display: flex;
+        flex-direction: column;
         margin: 0;
         width: 1024px;
     }
@@ -12,7 +13,30 @@
     .main-content{
         display: flex;
         flex-direction: row;
+        position: relative;
         text-align: center;
+    }
+
+    .top__header {
+        align-items: center;
+        display: flex;
+        height: 32px;
+        justify-content: flex-end;
+        width: 100%
+    }
+
+    .top__header img {
+        border-radius: 12px;
+        height: 18px;
+        margin: 8px;
+        width: 24px;
+    }
+
+    .top__header span {
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
     }
 
     .top--position__container{
@@ -194,7 +218,30 @@
     .main-content{
         display: flex;
         flex-direction: row;
+        position: relative;
         text-align: center;
+    }
+
+    .top__header {
+        align-items: center;
+        display: flex;
+        height: 32px;
+        justify-content: flex-end;
+        margin: 0 8px 0 0;
+    }
+
+    .top__header img {
+        border-radius: 12px;
+        height: 18px;
+        margin: 8px;
+        width: 24px;
+    }
+
+    .top__header span {
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
     }
 
     .top--position__container{
@@ -371,7 +418,30 @@
     .main-content{
         display: flex;
         flex-direction: column;
+        position: relative;
         text-align: center;
+    }
+
+    .top__header {
+        align-items: center;
+        display: flex;
+        height: 32px;
+        justify-content: flex-end;
+        margin: 0 8px 0 0;
+    }
+
+    .top__header img {
+        border-radius: 12px;
+        height: 18px;
+        margin: 8px;
+        width: 24px;
+    }
+
+    .top__header span {
+        color: rgb(95, 95, 95);
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
     }
 
     .top--position__container{
@@ -538,7 +608,12 @@
     .main-content{
         display: flex;
         flex-direction: row;
+        position: relative;
         text-align: center;
+    }
+
+    .top__header {
+        display: none;
     }
 
     .top--position__container{
