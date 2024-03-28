@@ -1,0 +1,53 @@
+@media only screen 
+and (min-width : 481px) {
+  .pageHeader {
+    background: var(--background);
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .avatarContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 650px;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 45%;
+  }
+
+  .titlePositionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 55%;
+  }
+
+  .title {
+    align-items: center;
+    background: var(--background-hover);
+    color: var(--text-light);
+    display: flex;
+    font-size: 24px;
+    font-weight: 200;
+    height: 50%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .positionName {
+    align-items: center;
+    background: var(--background-darker);
+    color: var(--text-light);
+    display: flex;
+    font-size: 24px;
+    font-weight: 200;
+    height: 50%;
+    justify-content: center;
+    width: 100%;
+  }
+}

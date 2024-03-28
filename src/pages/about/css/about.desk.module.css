@@ -1,0 +1,40 @@
+@media only screen 
+and (min-width : 481px) {
+  .main {
+    background: var(--background-hover);
+    color: var(--text);
+    height: 100%;
+    transition: 1s;
+  }
+
+  .areaOne {
+    background: var(--background-light);
+    color: var(--text-dark);
+    padding: 24px;
+  }
+
+  .areaTwo {
+    background: var(--background-selected);
+    color: var(--text-light);
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 16px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 12px 0;
+    text-align: justify;
+
+    span {
+      padding: 8px 0;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@media only screen 
+and (min-width : 481px) {
+  .main {
+    background: var(--background-color);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemList {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0 !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    padding-inline-start: 0 !important;
+    width: 100%;
+  }
+
+  .item {
+    align-items: center;
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    justify-content: center;
+    list-style-type: none;
+    width: 25%;
+  }
+
+  .itemIcon {
+    padding-bottom: 4px;
+    width: 40px;
+  }
+
+  .selected {
+    background: var(--background-selected);
+    transition: 1s;
+    width: 25%;
+  }
+}

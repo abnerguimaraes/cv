@@ -1,0 +1,12 @@
+@media only screen 
+and (min-width : 481px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    max-width: 1260px;
+    min-height: 100vh;
+    overflow: auto;
+    width: 100%;
+  }
+}
