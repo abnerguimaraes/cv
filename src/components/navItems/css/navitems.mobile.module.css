@@ -1,0 +1,40 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .main {
+    background: var(--background-color);
+    display: flex;
+    width: 100%;
+  }
+
+  .itemList {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0 !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    padding-inline-start: 0 !important;
+    width: 100%;
+  }
+  
+  .item {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    justify-content: center;
+    list-style-type: none;
+    width: 25%;
+  }
+
+  .itemIcon {
+    width: 20px;
+  }
+
+  .selected {
+    background: var(--background-selected);
+    transition: 1s;
+    width: 25%;
+  }
+}

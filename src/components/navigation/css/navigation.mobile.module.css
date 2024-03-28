@@ -1,0 +1,31 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .main {
+    background: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .open {
+    bottom: 0;
+    height: 100%;
+    margin: 0;
+    top: 0;
+  }
+
+  .titleContainer {
+    display: flex;
+    height: 32px;
+    padding: 16px;
+
+    span {
+      align-items: center;
+      color: var(--background-hover);
+      display: flex;
+      font-size: 18px;
+      margin-left: 8px;
+    }
+  }
+}
