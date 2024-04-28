@@ -28,7 +28,7 @@ function Footer() {
     <footer className={`${mobileClasses.main} ${deskClasses.main}`}>
       <div className={` ${mobileClasses.footerItem} ${deskClasses.footerItem}`}>
         DOWNLOAD CV
-        <a href="static/abner.pdf" target="_blank" download="abner.pdf">
+        <a href="https://drive.google.com/file/d/1URQLYX4kpgAstkDXkF5aAz8O9lDpiO6B/view" target="_blank" download="abner.pdf">
           <div className={`${mobileClasses.cvImgContainer} ${deskClasses.cvImgContainer}`} onClick={handleDownload}>
             <img src={cvImg} alt="cv" />
           </div>
