@@ -2,6 +2,7 @@ import mobileClasses from './css/footer.mobile.module.css';
 import deskClasses from './css/footer.desk.module.css';
 import cvImg from '../../assets/img/email.png';
 import linkedin from '../../assets/img/linkedin.png';
+import github from '../../assets/img/github.png';
 import insta from '../../assets/img/insta.png';
 import face from '../../assets/img/facebook.png';
 
@@ -21,6 +22,9 @@ function Footer() {
       case 'insta':
         window.open('https://www.instagram.com/guimaraesabner/');
         break;
+      case 'github':
+        window.open('https://github.com/abnerguimaraes/');
+        break;
     }
   }
 
@@ -36,9 +40,12 @@ function Footer() {
       </div>
       <div className={` ${mobileClasses.footerItem} ${deskClasses.footerItem}`}>
         FOLLOW ME
-        <div className={`${mobileClasses.socialMediaContainer} ${deskClasses.socialMediaContainer}`} onClick={() => { handleSocial('linkedin')}}>
-          <div className={`${mobileClasses.cvImgContainer} ${deskClasses.cvImgContainer}`}>
+        <div className={`${mobileClasses.socialMediaContainer} ${deskClasses.socialMediaContainer}`}>
+          <div className={`${mobileClasses.cvImgContainer} ${deskClasses.cvImgContainer}`} onClick={() => { handleSocial('linkedin')}}>
             <img src={linkedin}/>
+          </div>
+          <div className={`${mobileClasses.cvImgContainer} ${deskClasses.cvImgContainer}`} onClick={() => { handleSocial('github')}}>
+            <img src={github}/>
           </div>
           <div className={`${mobileClasses.cvImgContainer} ${deskClasses.cvImgContainer}`} onClick={() => { handleSocial('insta')}}>
             <img src={insta} alt="cv" />
